@@ -1,0 +1,24 @@
+.music-player {
+    background-color: #91c1f1;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.playlist {
+    height: 300px;
+    overflow-y: auto;
+}
+
+.playlist-item {
+    cursor: pointer;
+}
+
+.playlist-item:hover {
+    background-color: #e9ecef;
+}
+
+.active-song {
+    background-color: #007bff;
+    color: white;
+} 
